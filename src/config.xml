@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+
+<!-- WEB SERVER META DATA -->
+<webserver
+    title="A Great Webserver For An Awesome Website"
+    date="March 2018"
+    author="Oh Am I"
+>
+
+<!-- DEFAULT DOCUMENTS -->
+<!-- macOS style -->
+<context defaultDocument = "/Users/aidanirish/spring18/networks/Web_Server/src/pages/index.html"></context> 
+
+<!-- DOCUMENT ROOT -->
+<!-- Windows style -->
+<context documentRoot = "/Users/aidanirish/spring18/networks/Web_Server/src/pages/"></context>
+
+<!-- LOG FILE -->
+<!-- macOS / Linux style -->
+<logfile log = "/Users/aidanirish/spring18/networks/Web_Server/src/log.txt"></logfile> 
+
+<!-- 404 FILE -->
+<!-- macOS / Linux style -->
+<context fourohfour = "/Users/aidanirish/spring18/networks/Web_Server/src/pages/notfound.html"></context> 
+
+</webserver>
